@@ -1,10 +1,10 @@
+# serverless.yml (CORREGIDO)
 org: ieeeutec
 service: api-s3
 
 provider:
   name: aws
-  runtime: python3.13
-  # Default memory size for functions (default: 256MB)
+  runtime: python3.12 # 🔥 CORRECCIÓN: Cambiado de 3.13 a 3.12 (soportado)
   memorySize: 256
   timeout: 20
   iam:
